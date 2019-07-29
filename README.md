@@ -1,12 +1,11 @@
 Spinal HDL Template project for myStorm IceCore and Visual Studio Code
 ============
 
-You need to have the following installed
+You need to have the following installed:
 
-SBT Installed.
+SBT.
 
-Verilator installed for testbeds.
-
+Verilator.
 
 Visual Studio Code with the following plugins installed:
 
@@ -18,6 +17,7 @@ VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=scalame
 
 Name: Scala Syntax (official)
 VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=scala-lang.scala
+
 
 
 Clone this repository or download the zip.
