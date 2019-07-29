@@ -1,6 +1,6 @@
 # Spinal HDL Template project for myStorm IceCore and Visual Studio Code
 
-##Requirements
+## Requirements
 
 * SBT.
 
@@ -16,7 +16,7 @@
 
 
 
-##Installation
+## Installation
 
 Clone this repository or download the zip.
 
