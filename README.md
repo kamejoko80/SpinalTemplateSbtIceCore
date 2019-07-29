@@ -10,14 +10,11 @@ Verilator.
 
 Visual Studio Code with the following plugins installed:
 
-Name: Verilog HDL/SystemVerilog
-VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=mshr-h.VerilogHDL
+  Verilog HDL/SystemVerilog : https://marketplace.visualstudio.com/items?itemName=mshr-h.VerilogHDL
 
-Name: Scala (Metals)
-VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=scalameta.metals
+  Scala (Metals) : https://marketplace.visualstudio.com/items?itemName=scalameta.metals
 
-Name: Scala Syntax (official)
-VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=scala-lang.scala
+  Scala Syntax (official) : https://marketplace.visualstudio.com/items?itemName=scala-lang.scala
 
 
 
