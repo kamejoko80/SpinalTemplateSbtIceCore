@@ -50,10 +50,3 @@ object MyTopLevelVerilog {
     MySpinalConfig.generateVerilog(new MyTopLevel)
   }
 }
-
-//Generate the MyTopLevel's Verilog using the above custom configuration.
-object MyTopLevelVhdl {
-  def main(args: Array[String]) {
-    MySpinalConfig.generateVhdl(new MyTopLevel)
-  }
-}
