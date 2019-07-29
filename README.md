@@ -51,5 +51,11 @@ In Visual studio there is already a keyboard shortcut for build, you can edit th
 ]
 ```
 
+The Makefile will use any verilog (*.v) files in the hdl folder, the top level file is chip.v and the contraints are in chip.pcf.
+
+Spinale HDL files are stored in src/main/scala/mylib. The top level file is MyTopLevel.scala.
+
+
+
 This template is based on https://github.com/SpinalHDL/SpinalTemplateSbt
 
