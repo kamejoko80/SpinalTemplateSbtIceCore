@@ -4,17 +4,17 @@ Spinal HDL Template project for myStorm IceCore and Visual Studio Code
 Requirements
 ----------
 
-SBT.
+1. SBT.
 
-Verilator.
+2. Verilator.
 
-Visual Studio Code with the following plugins installed:
+3. Visual Studio Code with the following plugins installed:
 
-  Verilog HDL/SystemVerilog : https://marketplace.visualstudio.com/items?itemName=mshr-h.VerilogHDL
+3.1 Verilog HDL/SystemVerilog : https://marketplace.visualstudio.com/items?itemName=mshr-h.VerilogHDL
+ 
+3.2 Scala (Metals) : https://marketplace.visualstudio.com/items?itemName=scalameta.metals
 
-  Scala (Metals) : https://marketplace.visualstudio.com/items?itemName=scalameta.metals
-
-  Scala Syntax (official) : https://marketplace.visualstudio.com/items?itemName=scala-lang.scala
+3.3 Scala Syntax (official) : https://marketplace.visualstudio.com/items?itemName=scala-lang.scala
 
 
 
@@ -32,7 +32,9 @@ Visual Studio Code Tasks
 There are three tasks defined:
 
 Build Task  : This will run the SBT build if necessary and then build the bitstream
+
 Test Task   : This run the SBT simulation
+
 Upload Task : Thus will update the bitstream to the IceCore
 
 
