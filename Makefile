@@ -31,3 +31,4 @@ upload:
 .PHONY: clean
 clean:
 	$(RM) -f chip.blif chip.txt chip.ex chip.bin
+	$(RM) -rf simWorkspace

@@ -49,8 +49,16 @@
     }
     ,
     {
+      "label": "clean",
+      "type": "shell",
+      "group": "build",
+      "command": "make clean",
+      "problemMatcher": []
+    },
+    {
       "label": "upload",
       "type": "shell",
+      "group": "build",      
       "command": "make upload",
     }
     ,
