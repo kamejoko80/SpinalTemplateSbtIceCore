@@ -16,9 +16,9 @@
 TTY  = /dev/cu.usbmodem00000000001A1
 
 chip.bin: hdl/* MyTopLevel.v 
-	yosys -q -p "synth_ice40 -blif chip.blif" hdl/*.v MyTopLevel.v
-	arachne-pnr -d 8k -P tq144:4k -p hdl/chip.pcf chip.blif -o chip.txt
-	icepack chip.txt chip.bin
+	yosys -p 'synth_ice40 -top MyTopLevel -json chip.json' hdl/*.v MyTopLevel.v
+	nextpnr-ice40 --json chip.json --pcf hdl/chip.pcf --asc chip.asc --hx1k --package tq144 --timing-allow-fail --seed 1 
+	icepack chip.asc chip.bin
 
 MyTopLevel.v: src/main/scala/mylib/*.scala
 	sbt "runMain mylib.MyTopLevelVerilog"
