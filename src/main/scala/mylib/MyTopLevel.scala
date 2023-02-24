@@ -34,6 +34,8 @@ class MyTopLevel extends Component {
   val yellowLed = new LedGlow(25);
   val redLed = new LedGlow(24);
 
+  val counter = new MyClass();
+
   io.leds(0) := blueLed.io.led;
   io.leds(1) := greenLed.io.led;
   io.leds(2) := yellowLed.io.led;
